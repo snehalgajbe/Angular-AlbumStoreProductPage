@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  // title = 'Hello App Working Fineng generate component product-description!';
+  //  score:number[]=[20,50,150,185,120,56];
 }

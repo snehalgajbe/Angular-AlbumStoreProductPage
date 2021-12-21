@@ -1,0 +1,15 @@
+<ul>
+  <li *ngFor="let product of products">
+    <div class="col-sm-8">
+      <span class="track-number">{{ product.id }}</span>
+      <span class="product-name">{{ product.artistName }}</span>
+
+      <a
+        routerLink="/product/{{ product.id }}"
+        routerLinkActive="active"
+        href="{{ albumName }}"
+        ><button>{{ product.albumName }}</button>
+      </a>
+    </div>
+  </li>
+</ul>
