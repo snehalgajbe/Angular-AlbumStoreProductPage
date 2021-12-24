@@ -1,6 +1,6 @@
-import { Album } from 'app/album';
-export interface Artist{
-    id:number;
-    artist:string;
-    album:Album;
+import { Album } from "./album";
+export interface Artist {
+  id: number;
+  artist: string;
+  album: Album;
 }
